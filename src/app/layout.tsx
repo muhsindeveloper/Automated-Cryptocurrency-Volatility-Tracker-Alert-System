@@ -17,8 +17,29 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "Crypto Market Pulse | Real-Time Dashboard",
-  description: "Professional cryptocurrency dashboard with real-time market data, price charts, and analytics.",
+  title: "Crypto Pulse | Real-Time Cryptocurrency Dashboard",
+  description:
+    "Monitor real-time cryptocurrency prices, market trends, and trading volumes. Track top gainers/losers with instant price updates, comprehensive market analytics, and interactive charts.",
+  icons: {
+    icon: "/favicon.svg",
+  },
+  keywords: [
+    "cryptocurrency",
+    "crypto dashboard",
+    "bitcoin",
+    "ethereum",
+    "market prices",
+    "trading",
+    "real-time data",
+  ],
+  authors: [{ name: "Crypto Pulse" }],
+  openGraph: {
+    title: "Crypto Pulse - Real-Time Crypto Dashboard",
+    description:
+      "Professional cryptocurrency market monitoring with live price tracking and analytics.",
+    type: "website",
+    locale: "en_US",
+  },
 };
 
 export default function RootLayout({
